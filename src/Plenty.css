@@ -1,0 +1,95 @@
+div {
+  padding: 10px;
+  animation: All-Fade 1 3s linear;
+
+}
+li {
+   list-style-type: none;
+}
+.Plenty {
+  text-align: center;
+  margin:0 auto;
+}
+
+.Plenty-logo {
+  animation: Plenty-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Plenty-header {
+  background-color: #222;
+  height: 160px;
+  padding: 20px;
+  color: white;
+  width: 160px;
+  transform: rotate(45deg);
+  display: inline-block;
+  margin:0 auto;
+  position:relative;
+  top:-130px;
+  animation: All-Fade 1 8s linear;
+
+}
+.Plenty-header img {
+   animation: Plenty-logo-spin infinite 20s linear;
+   height: 80px;
+   position: absolute;
+   left: 85px;
+   top: 85px;
+ }
+
+.Plenty-header h1 {
+  font-size: 1.5em;
+  margin:10px;
+  position: relative;
+}
+.Plenty-title {
+  top:140px;
+  left: 32px;
+}
+.Plenty-ofFish {
+  transform: rotate(-90deg);
+  left: 85px;
+  top: 48px;
+}
+.Plenty-intro {
+  font-size: large;
+}
+.Plenty-header-spacer {
+    height:70px;
+}
+
+.MarketBoat {
+    margin: 10px;
+    border: 1px black solid;
+
+}
+.Fleet {
+    border: 1px black solid;
+    float:left;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.Marketplace {
+    border: 1px black solid;
+    float:right;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.population {
+    position:absolute;
+    font-size: x-small;
+    left: 0px;
+    top: 0px;
+}
+
+
+@keyframes Plenty-logo-spin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+@keyframes All-Fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
